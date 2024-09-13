@@ -58,6 +58,7 @@ const ProjectsWrapper = () => {
             {
                 projects.length ? projects.map((item, i) => (
                     <Project 
+                        key={i}
                         img={item.img}
                         title={item.title}
                         text={item.text}
