@@ -2,7 +2,7 @@ import React from "react";
 
 const FooterLogo = () => {
     return ( 
-        <div>
+        <div className="max-md:mx-auto">
             <img src="/img/footerLogo.png" alt="" />
         </div>
      );

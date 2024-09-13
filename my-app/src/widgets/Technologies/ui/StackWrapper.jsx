@@ -17,9 +17,9 @@ const StackWrapper = ({className}) => {
     ]
 
     return ( 
-        <div className={`grid grid-cols-6 w-full gap-5 items-center justify-center ${className}`}>
+        <div className={`grid grid-cols-6 w-full gap-5 m-auto items-center justify-center max-lg:grid-cols-4 max-lg:w-[80%] ${className}`}>
             {icons.map((ref, i) => (
-                <img className="block mx-auto" key={i} src={ref} alt="" />
+                <img className="block mx-auto w-[80%]" key={i} src={ref} alt="" />
             ))}
         </div>
      );

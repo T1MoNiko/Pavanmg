@@ -6,8 +6,8 @@ import StackWrapper from "./ui/StackWrapper";
 const Technologies = () => {
     return ( 
         <section className="mt-52">
-            <Title className={"font-extrabold text-[45px] text-center"}>My Tech Stack</Title>
-            <Text className={"text-center mt-3 text-[30px]"}> Technologies I’ve been working with recently</Text>
+            <Title className={"font-extrabold max-lg:text-[35px] text-center"}>My Tech Stack</Title>
+            <Text className={"text-center mt-3 text-[30px] max-lg:text-[20px]"}> Technologies I’ve been working with recently</Text>
             <StackWrapper className={"mt-32 gap-y-11"}/>
         </section>
      );

@@ -6,8 +6,8 @@ import Text from "../../shared/ui/Text/Text";
 const Projects = () => {
     return ( 
         <section className="mt-44">
-            <Title className={"text-[45px] text-center"}>Projects</Title>
-            <Text className={"mt-2 text-[30px] text-center"}>Things I’ve built so far</Text>
+            <Title className={"text-[45px] text-center max-lg:text-[35px]"}>Projects</Title>
+            <Text className={"mt-2 text-[30px] text-center max-lg:text-[20px]"}>Things I’ve built so far</Text>
             <ProjectsWrapper/>
         </section>
      );
