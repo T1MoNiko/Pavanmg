@@ -54,7 +54,7 @@ const ProjectsWrapper = () => {
     ]
 
     return ( 
-        <div className="grid grid-cols-3 gap-x-10 gap-y-14 px-5 mt-20 mx-auto max-lg:grid-cols-2 max-lg:w-[90%] max-md:grid-cols-1 max-md:w-[350px] max-sm:w-[250px]">
+        <div className="grid grid-cols-3 gap-x-10 gap-y-14 px-5 mt-20 mx-auto max-lg:grid-cols-2 max-lg:w-[90%] max-md:grid-cols-1 max-md:w-[350px] max-sm:w-[250px] max-sm:gap-y-5">
             {
                 projects.length ? projects.map((item, i) => (
                     <Project 

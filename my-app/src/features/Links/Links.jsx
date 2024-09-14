@@ -7,7 +7,7 @@ const Links = ({className}) => {
         <nav>
             <ul className={`flex justify-between w-full gap-10 ${className}`}>
                 {links.map((item, i) => (
-                    <li key={i}><a href="/" className="text-nowrap mr-9">{item}</a></li>
+                    <li key={i}><a href="/" className="text-nowrap mr-9 max-sm:mr-0">{item}</a></li>
                 ))}  
             </ul>
         </nav>

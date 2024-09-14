@@ -26,7 +26,7 @@ const Contacts = ({footer}) => {
     }
 
     return ( 
-        <div className="flex justify-between gap-4 w-[125px]">
+        <div className="flex justify-between gap-4 w-[125px] max-sm:gap-2 max-sm:w-[100px]">
             <Icons/>
         </div>
      );

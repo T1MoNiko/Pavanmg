@@ -20,7 +20,7 @@ const Footer = () => {
             </Container>
             <Container className={"border-y-2 border-[#cfcfcf] mt-8"}></Container>
             <Container className={"flex mt-14 items-center justify-between max-lg:flex-col"}>
-                <Links className={"text-[var(--title-color)] max-xl:w-[50%]"}/>
+                <Links className={"text-[var(--title-color)] max-xl:w-[50%] max-md:flex-col max-md:justify-center max-md:items-center max-md:w-full max-md:gap-4"}/>
                 <Text className={"bg-clip-text bg-gradient-to-r from-violet-500 from-50% to-pink-500 to-85% mr-6 max-lg:mt-5 max-sm:text-center"}>
                     Designed and built by <TransparentText>Pavan MG</TransparentText> with <TransparentText>Love</TransparentText> & <TransparentText>Coffee</TransparentText>
                 </Text>
